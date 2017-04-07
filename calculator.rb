@@ -1,6 +1,6 @@
 class Calculator
 
-	def is_number(input)
+	def is_number (input)
 		if input.is_a? Numeric
 			return true
 		else
